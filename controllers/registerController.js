@@ -1,5 +1,5 @@
 module.exports = (req, res) => {
-  res.render('register', { errors:errors}) ,{
-      errors: req.flash('validationErrors')
-  }
-}
+  res.render('register', {
+    errors: req.flash('validationErrors')
+  });
+};
